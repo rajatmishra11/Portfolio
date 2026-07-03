@@ -151,10 +151,11 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  height: auto;
+  margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
+  padding-bottom: 4vh;
 }
 
 .section-container {
@@ -167,7 +168,9 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: auto;
+  min-height: 80vh;
+  padding: 4vh 5rem;
 }
 
 .section__pic-container {
@@ -332,7 +335,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: auto;
 }
 
 .section__pic-container {
@@ -384,7 +387,6 @@ article .icon {
 
 #projects {
   position: relative;
-  top: 150px;
 }
 
 .color-container {
@@ -414,9 +416,9 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: auto;
+  min-height: 70vh;
   position: relative;
-  top: 150px;
 }
 
 .contact-info-upper-container {
@@ -425,7 +427,7 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
+  background: rgb(250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -454,9 +456,9 @@ article .icon {
 
 footer {
   position: relative;
-  height: 26vh;
+  height: auto;
   margin: 0 1rem;
-  top: 150px;
+  padding: 2rem 0;
 }
 
 footer p {
